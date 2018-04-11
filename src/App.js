@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Converter from './components/Converter';
 
-class App extends Component {
-  render() {
+export default function App(props) {
+  
     return (
       <div className="App">
         
+        <Converter />
       </div>
     );
   }
-}
 
-export default App;
+
+
